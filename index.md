@@ -23,8 +23,8 @@
             </nav>
             <aside>
             <div class="intro"> <!-- HELLO IM CHERI-->
-                <p id="bigtext"><span id="green">Hello!</span> I'm Cheri👋</p>
-                <p class="h2">A product design & user experience student based in
+                <p id="bigtext"><span id="green">Hello!</span> I'm Cheri Wang 👋</p>
+                <p class="h2">Product design & user experience student based in
                     Minneapolis, MN. I’m passionate about digital design, and the
                     intersection of humans and technology. Check out some of my work below!</p>
             </div>
@@ -41,7 +41,7 @@
                     <img src="assets/cura.png" alt="" class="left">
                 </div>
                 <div class="odd">
-                    <p class="medium">Cura</p>
+                    <p class="medium"><a href="cura.html">Cura</a></p>
                     <p class="body">An app for college students to increase
                         mental health accessibility.</p>
                     <div class="tag">
@@ -50,7 +50,7 @@
                     </div>
 
                     <div class="viewprojodd">
-                        <a href="cura.html" class="viewFont">view project</a>
+                        <a href="cura.html" class="viewFont">view project</a> <!-- CONSTRUCTION PAGE-->
                     </div>
                 </div>
             </div>
@@ -59,7 +59,7 @@
                     <img src="assets/moneyverbs.PNG" alt="" class="right">
                 </div>
                 <div class="even">
-                    <p class="medium">NCXT</p>
+                    <p class="medium"><a href="cura.html">NCXT</a></p>
                     <p class="body">User experience research & design work
                         for a client throughout a 12-week internship.</p>
                     <div class="tag">
@@ -69,8 +69,9 @@
                     </div>
 
                     <div class="viewprojeven">
-                        <a href="NCXT.html" class="viewFont">view project</a>
+                        <a href="cura.html" class="viewFont">view project</a> <!-- CONSTRUCTION PAGE-->
                     </div>
+
                 </div>
             </div>
 
@@ -79,7 +80,7 @@
                     <img src="assets/aquarech.png" alt="" class="left">
                 </div>
                 <div class="odd">
-                    <p class="medium">Aquarech</p>
+                    <p class="medium"><a href="cura.html">Aquarech</a></p>
                     <p class="body">An app to help Kenyan fish farmers organize
                         their ponds and cages.</p>
                     <div class="tag">
@@ -88,7 +89,8 @@
                     </div>
 
                     <div class="viewprojodd">
-                        <a href="aquarech.html" class="viewFont">view project</a>
+                        <!--<a href="aquarech.html" class="viewFont">view project</a>-->
+                        <a href="cura.html" class="viewFont">view project</a> <!-- CONSTRUCTION PAGE-->
 
                     </div>
                 </div>
@@ -99,7 +101,7 @@
                     <img src="assets/connect.png" alt="" class="right">
                 </div>
                 <div class="even">
-                    <p class="medium">Connect</p>
+                    <p class="medium"><a href="cura.html">Connect</a></p>
                     <p class="body">
                         App concept to encourage users to help support local
                         businesses in the community.</p>
@@ -109,7 +111,8 @@
                     </div>
 
                     <div class="viewprojeven">
-                        <a href="connect.html" class="viewFont">view project</a>
+                       <!-- <a href="connect.html" class="viewFont">view project</a>-->
+                        <a href="cura.html" class="viewFont">view project</a> <!-- CONSTRUCTION PAGE-->
                     </div>
 
                 </div>
@@ -125,7 +128,7 @@
                     <img src="assets/ix.png" alt="" class="left">
                 </div>
                 <div class="odd">
-                    <p class="medium">iX Design</p>
+                    <p class="medium"><a href="cura.html">iX Design</a></p>
                     <p class="body">Highlights of some projects I did for my
                         Interaction Design class (GDES 5341). </p>
 
@@ -135,7 +138,8 @@
                     </div>
 
                     <div class="viewprojodd">
-                        <a href="ix.html" class="viewFont" id="work">view work</a>
+                        <!--<a href="ix.html" class="viewFont" id="work">view work</a>-->
+                        <a href="cura.html" class="viewFont">view work</a> <!-- CONSTRUCTION PAGE-->
                     </div>
                 </div>
             </div>
@@ -146,7 +150,7 @@
                     <img src="assets/coa.png" alt="" class="right"/>
                 </div>
                 <div class="even">
-                    <p><span id="smaller">Graphic Design</span></p>
+                    <p><span id="smaller"><a href="index.html">Graphic Design</a></span></p>
                     <p class="body">
 
                         Highlights of some work I did for various graphic design positions.</p>
@@ -156,18 +160,20 @@
                     </div>
 
                     <div class="viewprojeven">
-                        <a href="graphic.html" class="viewFont" id="work">view work</a>
+                        <!--<a href="graphic.html" class="viewFont" id="work">view work</a>-->
+                        <a href="cura.html" class="viewFont">view work</a> <!-- CONSTRUCTION PAGE-->
                     </div>
                 </div>
             </div>
 
-            <div class="project" id="spacer"></div>
+            <div class="project" id="spacer2"></div>
 
-            <div class="divider">
-                <p class="divfont">let's talk!</p>
-            </div>
+
 
             <div class="project">
+                <div class="divider">
+                    <p class="divfont">let's talk!</p>
+                </div>
                 <div class="footer"> <!--LETS TALK-->
 
                     <div class="letsTalk">
