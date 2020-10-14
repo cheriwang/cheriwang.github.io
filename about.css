@@ -1,0 +1,259 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+header {
+    width: 100%;
+    height: 70%;
+    position: absolute;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+a.portfolio:before {
+    content: "";
+    position: absolute;
+    width: 30%;
+    height: 3px;
+    border-radius: 10px;
+    bottom: -10%;
+    margin-left: 5%;
+    background-color: #538055;
+    visibility: hidden;
+    transform: scaleX(0);
+    transition: all 0.2s ease-in-out;
+    z-index: 1000;
+}
+
+a.portfolio:hover:before {
+    visibility: visible;
+    transform: scaleX(1);
+    z-index: 1000;
+}
+
+a.resume:before {
+    content: "";
+    position: absolute;
+    width: 27%;
+    height: 3px;
+    border-radius: 10px;
+    bottom: -10%;
+    margin-left: 5%;
+    background-color: #538055;
+    visibility: hidden;
+    transform: scaleX(0);
+    transition: all 0.2s ease-in-out;
+    z-index: 1000;
+}
+
+a.resume:hover:before {
+    visibility: visible;
+    transform: scaleX(1);
+    z-index: 1000;
+}
+
+.body{
+    font-family: proxima-nova, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5vw;
+    color: #2F2F2F;
+    line-height:2vw;
+}
+
+nav {
+    width: 100%;
+    height: 150px;
+    position: fixed;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.23);
+    font-family: 'DM Sans', sans-serif;
+    font-weight: bold;
+    font-size: 2vw;
+    line-height: 44px;
+    z-index: 9999;
+}
+
+.menu {
+    width: 27%;
+    height: 44px;
+    position: fixed;
+    right: 9%;
+    margin-top: 55px;
+}
+
+
+.leftside {
+    width: 260px;
+    height: 51px;
+    position: fixed;
+    left: 9%;
+    margin-top: 55px;
+    padding-top: 10px;
+
+}
+
+.h2{
+    font-family: 'DM Sans', sans-serif;
+    font-weight: normal;
+    font-size: 2vw;
+    line-height: 3vw;
+
+}
+
+#bigtext{
+    font-family: 'DM Sans', sans-serif;
+    font-weight: bold;
+    font-size: 5vw;
+    line-height: 6vw;
+}
+
+aside {
+    width: 71%;
+    height: 31.5%;
+    position: absolute;
+    margin-left: 14%;
+    margin-top: 8vw;
+}
+
+#green {
+    color: #538055;
+}
+
+.menut {
+    display: inline-block;
+    margin-left: 5%;
+    color: #B7B7B7;
+    text-align: right;
+}
+
+.menuclick {
+    display: inline-block;
+    margin-left: 5%;
+    color: #538055;
+    text-align: right;
+}
+
+.intro {
+    margin-top: 141px;
+}
+
+.divider {
+    height: 21px;
+}
+
+.divfont {
+    font-family: proxima-nova, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 1.75vw;
+    color: #888888;
+    letter-spacing: 10px;
+    margin-top: 20px;
+    margin-left: 15px;
+    text-transform: uppercase;
+}
+
+.divider:before {
+    display: block;
+    float: left;
+    margin-top: .9vw;
+    border-top: 2px solid #888888;
+    border-radius: 10px;
+    width: 8vw;
+    content: "";
+}
+
+.divfont:before {
+    display: block;
+    float: left;
+    margin-top: 18px;
+    border-top: 0px solid #888888;
+    width: 20px;
+    content: "";
+}
+
+section {
+    width: 80%;
+    height: 60vw;
+    position: absolute;
+    margin-top: 30%;
+    margin-left: 10%;
+}
+
+article {
+    display: inline-block;
+    width: 50%;
+    height: 60%;
+    position: absolute;
+    margin-top: 11%;
+    right: 0;
+}
+
+.footer {
+    width: 80%;
+    height: 40%;
+    position: relative;
+    margin-left: 10%;
+    margin-top: 2vw;
+}
+
+.letsTalk {
+    width: 100%;
+    height: 40.46%;
+    position: absolute;
+    margin-top: 7%;
+}
+
+.copyright {
+    width: 100%;
+    height: 25%;
+    position: absolute;
+    margin-top: 50%;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 1.5vw;
+    line-height: 1.75vw;
+    text-align: center;
+}
+
+.medium{
+    font-family: 'DM Sans', sans-serif;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 100px;
+}
+
+
+.pics{
+    display: inline-block;
+    width: 42%;
+    height: 60%;
+    position: relative;
+    margin-top: 11%;
+    left: 0;
+}
+
+img.right {
+    width: 80%;
+    position: absolute;
+    right: 0;
+}
+
+img.left {
+    width: 65%;
+    position: absolute;
+    margin-top: 64%;
+}
+
+#spacer{
+    height: 10%;
+    margin-top: 22%;
+}
