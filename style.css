@@ -24,7 +24,7 @@ a.about:before {
     width: 22%;
     height: 3px;
     border-radius: 10px;
-    bottom: -10%;
+    bottom: 88%;
     margin-left: 5%;
     background-color: #538055;
     visibility: hidden;
@@ -45,7 +45,7 @@ a.resume:before {
     width: 27%;
     height: 3px;
     border-radius: 10px;
-    bottom: -10%;
+    bottom: 88%;
     margin-left: 5%;
     background-color: #538055;
     visibility: hidden;
@@ -75,20 +75,19 @@ nav {
 
 .menu {
     width: 27%;
-    height: 44px;
+    height: 50%;
     position: fixed;
     right: 9%;
-    margin-top: 2.5%;
+    margin-top: 3%;
 }
 
 
 .leftside {
     width: 260px;
-    height: 51px;
+    height: 50%;
     position: fixed;
     left: 9%;
-    margin-top: 2%;
-    padding-top: 10px;
+    margin-top: 3%;
 
 }
 
