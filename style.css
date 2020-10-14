@@ -22,9 +22,9 @@ a.about:before {
     content: "";
     position: absolute;
     width: 22%;
-    height: 3px;
+    height: .25vw;
     border-radius: 10px;
-    bottom: 88%;
+    margin-top: 10%;
     margin-left: 5%;
     background-color: #538055;
     visibility: hidden;
@@ -43,9 +43,9 @@ a.resume:before {
     content: "";
     position: absolute;
     width: 27%;
-    height: 3px;
+    height: .25vw;
     border-radius: 10px;
-    bottom: 88%;
+    margin-top: 10%;
     margin-left: 5%;
     background-color: #538055;
     visibility: hidden;
@@ -62,14 +62,13 @@ a.resume:hover:before {
 
 nav {
     width: 100%;
-    height: 15%;
+    height: 8vw;
     position: fixed;
     background-color: #ffffff;
     box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.23);
     font-family: 'DM Sans', sans-serif;
     font-weight: bold;
     font-size: 2vw;
-    line-height: 44px;
     z-index: 999;
 }
 
@@ -126,7 +125,7 @@ nav {
 
 section {
     width: 80%;
-    height: 350%;
+    height: 250vw;
     position: absolute;
     margin-top: 45%;
     margin-left: 10%;
@@ -180,7 +179,7 @@ aside {
 }
 
 .intro {
-    margin-top: 141px;
+    margin-top: 15%;
 }
 
 .divider {
@@ -193,7 +192,7 @@ aside {
     font-style: normal;
     font-size: 1.75vw;
     color: #888888;
-    letter-spacing: 10px;
+    letter-spacing: .5vw;
     margin-top: 20px;
     margin-left: 15px;
     text-transform: uppercase;
@@ -214,14 +213,14 @@ aside {
     float: left;
     margin-top: 18px;
     border-top: 0px solid #888888;
-    width: 20px;
+    width: 1vw;
     content: "";
 }
 
 .project {
     float: left;
-    width: 100%;
-    height: 15%;
+    width: 80vw;
+    height: 27.25vw;
     position: relative;
     margin-top: 10%;
 }
@@ -231,7 +230,7 @@ aside {
 }
 
 #spacer2{
-    height: .025%;
+    height: .05%;
 }
 
 .odd {
@@ -252,7 +251,7 @@ aside {
 
 .tag {
     display: inline-block;
-    margin-top: 30px;
+    margin-top: 10%;
     width: 100%;
     height: 9%;
     position: relative;
@@ -264,7 +263,7 @@ aside {
     font-style: normal;
     font-size: 1vw;
     color: #888888;
-    letter-spacing: 1px;
+    letter-spacing: .1vw;
     text-align: center;
     margin-top: .4vw;
 }
@@ -316,16 +315,16 @@ a.viewFont:before{
     content: "";
     position: absolute;
     width: 100%;
-    height: 3px;
+    height: .25vw;
     border-radius: 10px;
-    bottom: 5%;
+    bottom: .05vw;
     right: 0;
     background-color: #D0D0D0;
 }
 
 
 img.right {
-    height: 100%;
+    height: 27.25vw;
     right: 0;
     position: absolute;
     border-radius: 10px;
@@ -333,7 +332,7 @@ img.right {
 }
 
 img.left {
-    height: 100%;
+    height: 27.25vw;
     left: 0;
     position: absolute;
     border-radius: 10px;
@@ -344,12 +343,12 @@ img.left {
     width: 100%;
     height: 40.46%;
     position: absolute;
-    margin-top: 7%;
+    margin-top: 15%;
 }
 
 .copyright {
     width: 100%;
-    height: 300%;
+    height: 5vw;
     position: absolute;
     margin-top: 13%;
     font-family: 'DM Sans', sans-serif;
