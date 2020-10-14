@@ -21,7 +21,7 @@ a {
 a.portfolio:before {
     content: "";
     position: absolute;
-    width: 32%;
+    width: 31%;
     height: .25vw;
     border-radius: 10px;
     margin-top: 10%;
@@ -77,16 +77,16 @@ nav {
     box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.23);
     font-family: 'DM Sans', sans-serif;
     font-weight: bold;
-    font-size: 2vw;
+    font-size: 2.25vw;
     z-index: 999;
 }
 
 .menu {
-    width: 27%;
+    width: 33%;
     height: 50%;
     position: fixed;
-    right: 9%;
-    margin-top: 3%;
+    right: 7%;
+    margin-top: 2.5%;
 }
 
 
@@ -95,7 +95,7 @@ nav {
     height: 50%;
     position: fixed;
     left: 9%;
-    margin-top: 3%;
+    margin-top: 2.5%;
 
 }
 
@@ -115,10 +115,10 @@ nav {
 }
 
 aside {
-    width: 71%;
-    height: 31.5%;
+    width: 70vw;
+    height: 10vw;
     position: absolute;
-    margin-left: 14%;
+    margin-left: 16.5vw;
     margin-top: 8vw;
 }
 
@@ -189,11 +189,11 @@ section {
 
 article {
     display: inline-block;
-    width: 50%;
+    width: 42%;
     height: 60%;
     position: absolute;
     margin-top: 11%;
-    right: 0;
+    margin-left: 6%;
 }
 
 .footer {
@@ -201,7 +201,7 @@ article {
     height: 40%;
     position: relative;
     margin-left: 10%;
-    margin-top: 2vw;
+    margin-top: 1.75vw;
 }
 
 .letsTalk {
@@ -235,7 +235,7 @@ article {
     height: 60%;
     position: relative;
     margin-top: 11%;
-    left: 0;
+    margin-left: 5%;
 }
 
 img.right {
@@ -249,6 +249,7 @@ img.left {
     position: absolute;
     margin-top: 64%;
 }
+
 
 #spacer{
     height: 10%;

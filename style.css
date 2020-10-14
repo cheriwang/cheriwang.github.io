@@ -9,7 +9,7 @@ html {
 
 header {
     width: 100%;
-    height: 70%;
+    height: 5vw;
     position: absolute;
 }
 
@@ -68,16 +68,16 @@ nav {
     box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.23);
     font-family: 'DM Sans', sans-serif;
     font-weight: bold;
-    font-size: 2vw;
+    font-size: 2.25vw;
     z-index: 999;
 }
 
 .menu {
-    width: 27%;
+    width: 33%;
     height: 50%;
     position: fixed;
-    right: 9%;
-    margin-top: 3%;
+    right: 7%;
+    margin-top: 2.5%;
 }
 
 
@@ -86,7 +86,7 @@ nav {
     height: 50%;
     position: fixed;
     left: 9%;
-    margin-top: 3%;
+    margin-top: 2.5%;
 
 }
 
@@ -140,18 +140,18 @@ article {
 }
 
 aside {
-    width: 71%;
-    height: 31.5%;
+    width: 70vw;
+    height: 10vw;
     position: absolute;
-    margin-left: 14%;
+    margin-left: 16.5vw;
     margin-top: 8vw;
 }
 
 .footer {
-    width: 80%;
-    height: 15%;
+    width: 89%;
+    height: 20vw;
     position: relative;
-    margin-left: 10%;
+    margin-left: 5.5%;
     margin-top: -1%;
 }
 
@@ -183,7 +183,7 @@ aside {
 }
 
 .divider {
-    height: 21px;
+    height: 2vw;
 }
 
 .divfont {
@@ -218,25 +218,25 @@ aside {
 }
 
 .project {
-    float: left;
-    width: 80vw;
+    margin-left: 4vw;
+    width: 72vw;
     height: 27.25vw;
     position: relative;
     margin-top: 10%;
 }
 
 #spacer{
-    height: 4%;
+    height: 3.5vw;
 }
 
 #spacer2{
-    height: .05%;
+    height: 1.05%;
 }
 
 .odd {
     display: inline-block;
     float: right;
-    width: 29.17%;
+    width: 30%;
     height: 100%;
     position: relative;
 }
@@ -244,7 +244,7 @@ aside {
 .even {
     display: inline-block;
     float: left;
-    width: 29.17%;
+    width: 30%;
     height: 100%;
     position: relative;
 }
@@ -274,7 +274,7 @@ aside {
     margin-bottom: 3%;
     width: 47%;
     height: 2.25vw;
-    border: 1px #888888 solid;
+    border: .1vw #888888 solid;
     border-radius: 70px;
 }
 
@@ -302,7 +302,7 @@ aside {
     font-size: 1.25vw;
     color: #141414;
     letter-spacing: .075vw;
-    margin-left: 10%;
+    margin-left: 6.5%;
     text-transform: uppercase;
 }
 
@@ -343,7 +343,6 @@ img.left {
     width: 100%;
     height: 40.46%;
     position: absolute;
-    margin-top: 15%;
 }
 
 .copyright {
