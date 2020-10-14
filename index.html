@@ -148,6 +148,7 @@
                 <div class="even">
                     <p><span id="smaller">Graphic Design</span></p>
                     <p class="body">
+
                         Highlights of some work I did for various graphic design positions.</p>
                     <div class="tag">
                         <div class="bubble"><p class="tagtext">visual design</p></div>
