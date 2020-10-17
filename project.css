@@ -21,7 +21,7 @@ a {
 a.about:before {
     content: "";
     position: absolute;
-    width: 22%;
+    width: 20%;
     height: .25vw;
     border-radius: 10px;
     margin-top: 10%;
@@ -42,7 +42,7 @@ a.about:hover:before {
 a.resume:before {
     content: "";
     position: absolute;
-    width: 27%;
+    width: 25%;
     height: .25vw;
     border-radius: 10px;
     margin-top: 10%;
@@ -68,16 +68,16 @@ nav {
     box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.23);
     font-family: 'DM Sans', sans-serif;
     font-weight: bold;
-    font-size: 2vw;
+    font-size: 2.25vw;
     z-index: 999;
 }
 
 .menu {
-    width: 27%;
+    width: 33%;
     height: 50%;
     position: fixed;
-    right: 9%;
-    margin-top: 3%;
+    right: 7%;
+    margin-top: 2.5%;
 }
 
 
@@ -86,7 +86,7 @@ nav {
     height: 50%;
     position: fixed;
     left: 9%;
-    margin-top: 3%;
+    margin-top: 2.5%;
 
 }
 
@@ -115,23 +115,191 @@ nav {
     font-style: normal;
     font-size: 1.5vw;
     color: #2F2F2F;
-    line-height:2vw;
+    line-height: 2vw;
 }
 
-.back{
-    left: 0;
+aside {
+    width: 100%;
+    height: 33vw;
     position: absolute;
-    height: 3.5vw;
-    width: 20%;
-    margin-top:3%;
-    border: .25vw #888888 solid;
-    border-radius: 20px;
+    margin-top: 8vw;
+}
 
+#cura{
+    background-color: #F6F5FF;
+}
+
+#ncxt{
+    background-color: #BEDBC5;
+}
+
+#ix{
+    background-color: #FFFEEB;
+}
+
+#talltext{
+    margin-top: 2%;
+}
+
+.intro {
+    margin-left: 10%;
+    width: 30%;
+    margin-top: 5%;
+    position: relative;
+    float: left;
+    display: inline-block;
+}
+
+#bigtext{
+    font-family: 'DM Sans', sans-serif;
+    font-weight: bold;
+    font-size: 5.5vw;
+    line-height: 6vw;
+}
+
+.h2{
+    font-family: 'DM Sans', sans-serif;
+    font-weight: normal;
+    font-size: 1.75vw;
+    line-height: 2.25vw;
+}
+
+.h3{
+    font-family: 'DM Sans', sans-serif;
+    font-weight: normal;
+    font-size: 2vw;
+    line-height: 3vw;
+
+}
+
+.medium{
+    font-family: 'DM Sans', sans-serif;
+    font-weight: bold;
+    font-size: 3.5vw;
+    line-height: 5vw;
+}
+
+.headerpic{
+    width: 54.75%;
+    float: right;
+    display: inline-block;
+    position: relative;
+    top: 0;
+}
+
+.divider {
+    height: 1.5vw;
+}
+
+.divfont {
+    font-family: proxima-nova, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 1.75vw;
+    color: #888888;
+    letter-spacing: .5vw;
+    margin-top: 20px;
+    margin-left: 15px;
+    text-transform: uppercase;
+}
+
+.divider:before {
+    display: block;
+    float: left;
+    margin-top: .9vw;
+    border-top: .2vw solid #888888;
+    border-radius: 10px;
+    width: 8vw;
+    content: "";
+}
+
+.divfont:before {
+    display: block;
+    float: left;
+    margin-top: 18px;
+    border-top: 0px solid #888888;
+    width: 1vw;
+    content: "";
+}
+
+section{
+    width: 80%;
+    margin-left: 10%;
+    /*background-color: #BEDBC5;*/
+    position: absolute;
+    margin-top: 45vw;
+}
+
+footer{
+    width: 80%;
+    margin-left: 10%;
+    position: absolute;
+    /*background-color: #d2ff49;*/
+    margin-top: 9.75%;
+    z-index: 999;
+}
+
+.copyright {
+    width: 100%;
+    height: 5vw;
+    position: absolute;
+    margin-top: 13%;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 1.5vw;
+    line-height: 1.75vw;
+    text-align: center;
+}
+
+
+.proj{
+    width: 83.2%;
+    margin-left: 8.4%;
+    margin-top: 1vw;
+    /*background-color: pink;*/
+    position: relative;
+}
+
+.spacer{
+    height: 3vw;
+}
+
+.bubble{
+    display: inline-block;
+    position: relative;
+    height: 3.5vw;
+    width: 18%;
+    border: .2vw #888888 solid;
+    border-radius: 25px;
+    margin-right: .5vw;
+    margin-left: .5vw;
 }
 
 #bubblet{
-    margin-left: 13.5%;
-    margin-top: 3.5%;
-    font-weight: 600;
-    color: #538055;
+    margin-top: 5%;
+    text-align: center;
+}
+
+.imageleft{
+    display: inline-block;
+    position: relative;
+    float: left;
+    margin-right: 5.5%;
+}
+
+.imgdisplay{
+    border-radius: 1vw;
+    position: relative;
+    left:0;
+}
+
+.videowrapper{
+    width: 100%;
+    height: 45vw;
+}
+
+.split{
+    width: 40%;
+    margin-left: 3%;
+    margin-right: 7%;
+    display: inline-block;
 }

@@ -21,7 +21,7 @@ a {
 a.portfolio:before {
     content: "";
     position: absolute;
-    width: 31%;
+    width: 28%;
     height: .25vw;
     border-radius: 10px;
     margin-top: 10%;
@@ -42,7 +42,7 @@ a.portfolio:hover:before {
 a.resume:before {
     content: "";
     position: absolute;
-    width: 27%;
+    width: 25%;
     height: .25vw;
     border-radius: 10px;
     margin-top: 10%;

@@ -21,7 +21,7 @@ a {
 a.about:before {
     content: "";
     position: absolute;
-    width: 22%;
+    width: 20%;
     height: .25vw;
     border-radius: 10px;
     margin-top: 10%;
@@ -42,7 +42,7 @@ a.about:hover:before {
 a.resume:before {
     content: "";
     position: absolute;
-    width: 27%;
+    width: 25%;
     height: .25vw;
     border-radius: 10px;
     margin-top: 10%;
@@ -354,4 +354,23 @@ img.left {
     font-size: 1.5vw;
     line-height: 1.75vw;
     text-align: center;
+}
+
+
+.back{
+    left: 0;
+    position: absolute;
+    height: 3.5vw;
+    width: 20%;
+    margin-top:3%;
+    border: .25vw #888888 solid;
+    border-radius: 20px;
+
+}
+
+#bubblet{
+    margin-left: 13.5%;
+    margin-top: 3.5%;
+    font-weight: 600;
+    color: #538055;
 }
