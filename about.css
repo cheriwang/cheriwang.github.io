@@ -238,6 +238,10 @@ article {
     margin-left: 5%;
 }
 
+img{
+    border-radius: 0.4vw;
+}
+
 img.right {
     width: 80%;
     position: absolute;

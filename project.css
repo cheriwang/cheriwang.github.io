@@ -138,7 +138,7 @@ aside {
 }
 
 #talltext{
-    margin-top: 2%;
+    margin-top: 3.1%;
 }
 
 .intro {
@@ -302,4 +302,8 @@ footer{
     margin-left: 3%;
     margin-right: 7%;
     display: inline-block;
+}
+
+.semi{
+    font-weight: 600;
 }
