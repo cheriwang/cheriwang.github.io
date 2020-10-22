@@ -133,8 +133,12 @@ aside {
     background-color: #BEDBC5;
 }
 
-#ix{
+#gdes{
     background-color: #FFFEEB;
+}
+
+#ix {
+    background-color: #39BBB0;
 }
 
 #talltext{
@@ -306,4 +310,13 @@ footer{
 
 .semi{
     font-weight: 600;
+}
+
+#click{
+    transition: transform .2s;
+}
+
+#click:click {
+    transform: scale(1.03);
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.23);
 }
