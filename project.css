@@ -94,7 +94,6 @@ nav {
     color: #538055;
 }
 
-
 .menut {
     display: inline-block;
     margin-left: 5%;
@@ -139,6 +138,10 @@ aside {
 
 #ix {
     background-color: #39BBB0;
+}
+
+#connect{
+    background-color: #C0CEEB;
 }
 
 #talltext{
