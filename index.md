@@ -14,7 +14,7 @@
             <nav>
             <div class="menu">
                 <a href="index.html"><p class="menuclick">portfolio</p></a>
-                <a href="about.html" class="about"><p class="menut">about</p></a>
+                <a href="about.md" class="about"><p class="menut">about</p></a>
                 <a href="assets/CheriWangResume.pdf" target="_blank" class="resume"><p class="menut">resume</p></a>
             </div>
             <div class="leftside">
