@@ -25,7 +25,7 @@
             <div class="intro"> <!-- HELLO IM CHERI-->
                 <p id="bigtext"><span id="green">Hello!</span> I'm Cheri Wang 👋</p>
                 <p class="h2">Product design & user experience student based in
-                    Minneapolis, MN. I’m passionate about digital design, and the
+                    Minneapolis, MN.<br> I’m passionate about digital design, and the
                     intersection of humans and technology. Check out some of my work below!</p>
             </div>
             </aside>
@@ -38,7 +38,7 @@
 
             <div class="project">
                 <div>
-                    <img src="assets/cura.png" alt="" class="left">
+                    <a href="cura.html"><img src="assets/cura.png" alt="" class="left" id="zoom"></a>
                 </div>
                 <div class="odd">
                     <p class="medium"><a href="cura.html">Cura</a></p>
@@ -56,10 +56,10 @@
             </div>
             <div class="project">
                 <div>
-                    <img src="assets/moneyverbs.PNG" alt="" class="right">
+                    <a href="ncxt.html"><img src="assets/moneyverbs.PNG" alt="" class="right" id="zoom"></a>
                 </div>
                 <div class="even">
-                    <p class="medium"><a href="cura.html">NCXT</a></p>
+                    <p class="medium"><a href="ncxt.html">NCXT</a></p>
                     <p class="body">User experience research & design work
                         for a client throughout a 12-week internship.</p>
                     <div class="tag">
@@ -69,7 +69,7 @@
                     </div>
 
                     <div class="viewprojeven">
-                        <a href="cura.html" class="viewFont">view project</a> <!-- CONSTRUCTION PAGE-->
+                        <a href="ncxt.html" class="viewFont">view project</a>
                     </div>
 
                 </div>
@@ -77,10 +77,10 @@
 
             <div class="project">
                 <div>
-                    <img src="assets/aquarech.png" alt="" class="left">
+                    <a href="construction.html"><img src="assets/aquarech.png" alt="" class="left" id="zoom"></a>
                 </div>
                 <div class="odd">
-                    <p class="medium"><a href="cura.html">Aquarech</a></p>
+                    <p class="medium"><a href="construction.html">Aquarech</a></p>
                     <p class="body">An app to help Kenyan fish farmers organize
                         their ponds and cages.</p>
                     <div class="tag">
@@ -90,7 +90,7 @@
 
                     <div class="viewprojodd">
                         <!--<a href="aquarech.html" class="viewFont">view project</a>-->
-                        <a href="cura.html" class="viewFont">view project</a> <!-- CONSTRUCTION PAGE-->
+                        <a href="construction.html" class="viewFont">view project</a> <!-- CONSTRUCTION PAGE-->
 
                     </div>
                 </div>
@@ -98,10 +98,10 @@
 
             <div class="project">
                 <div>
-                    <img src="assets/connect.png" alt="" class="right">
+                    <a href="connect.html"><img src="assets/connect.png" alt="" class="right" id="zoom"></a>
                 </div>
                 <div class="even">
-                    <p class="medium"><a href="cura.html">Connect</a></p>
+                    <p class="medium"><a href="connect.html">Connect</a></p>
                     <p class="body">
                         App concept to encourage users to help support local
                         businesses in the community.</p>
@@ -111,8 +111,7 @@
                     </div>
 
                     <div class="viewprojeven">
-                       <!-- <a href="connect.html" class="viewFont">view project</a>-->
-                        <a href="cura.html" class="viewFont">view project</a> <!-- CONSTRUCTION PAGE-->
+                        <a href="connect.html" class="viewFont">view project</a>
                     </div>
 
                 </div>
@@ -121,25 +120,24 @@
             <div class="project" id="spacer"></div>
 
             <div class="divider">
-                <p class="divfont">other projects</p>
+                <p class="divfont">other works</p>
             </div>
             <div class="project">
                 <div>
-                    <img src="assets/ix.png" alt="" class="left">
+                    <a href="ix.html"><img src="assets/ix.png" alt="" class="left" id="zoom"></a>
                 </div>
                 <div class="odd">
-                    <p class="medium"><a href="cura.html">iX Design</a></p>
-                    <p class="body">Highlights of some projects I did for my
+                    <p class="medium"><a href="ix.html">iX Design</a></p>
+                    <p class="body">Highlights of some personal projects & ones I did for my
                         Interaction Design class (GDES 5341). </p>
 
                     <div class="tag">
-                        <div class="bubble"><p class="tagtext">interaction design</p></div>
+                        <div class="bubble"><p class="tagtext">user interface</p></div>
                         <div class="bubble"><p class="tagtext">visual design</p></div>
                     </div>
 
                     <div class="viewprojodd">
-                        <!--<a href="ix.html" class="viewFont" id="work">view work</a>-->
-                        <a href="cura.html" class="viewFont">view work</a> <!-- CONSTRUCTION PAGE-->
+                        <a href="ix.html" class="viewFont" id="work">view work</a>
                     </div>
                 </div>
             </div>
@@ -147,7 +145,7 @@
             <div class="project">
                 <div>
 
-                    <img src="assets/coa.png" alt="" class="right"/>
+                    <a href="construction.html"><img src="assets/coa.png" alt="" class="right" id="zoom"></a>
                 </div>
                 <div class="even">
                     <p><span id="smaller"><a href="index.html">Graphic Design</a></span></p>
@@ -161,19 +159,19 @@
 
                     <div class="viewprojeven">
                         <!--<a href="graphic.html" class="viewFont" id="work">view work</a>-->
-                        <a href="cura.html" class="viewFont">view work</a> <!-- CONSTRUCTION PAGE-->
+                        <a href="construction.html" class="viewFont" id="work">view work</a> <!-- CONSTRUCTION PAGE-->
                     </div>
                 </div>
             </div>
 
             <div class="project" id="spacer2"></div>
 
-
+            <div class="divider">
+                <p class="divfont">let's talk!</p>
+            </div>
 
             <div class="project">
-                <div class="divider">
-                    <p class="divfont">let's talk!</p>
-                </div>
+
                 <div class="footer"> <!--LETS TALK-->
 
                     <div class="letsTalk">
