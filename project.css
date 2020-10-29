@@ -262,7 +262,11 @@ footer{
     width: 83.2%;
     margin-left: 8.4%;
     margin-top: 1vw;
-    /*background-color: pink;*/
+    position: relative;
+}
+
+.projleft{
+    width: 83.2%;
     position: relative;
 }
 
@@ -305,16 +309,13 @@ footer{
 }
 
 #vidright{
-     width: 35%;
     height:30vw;
      float: right;
-     margin-right: 5.5%;
  }
 
 .wrap{
     position: absolute;
     display: inline-block;
-    margin-top: -39em;
     right: 0;
 }
 
@@ -339,7 +340,8 @@ footer{
 }
 
 #small{
-    width: 40%;
+    float: left;
+    width: 45%;
 }
 
 #big{
@@ -347,4 +349,14 @@ footer{
     position: absolute;
     right: 0;
     width: 120%;
+}
+
+ul {
+    white-space: nowrap;
+    margin-left: -5%
+}
+
+ul, li {
+    list-style: none;
+    display: inline;
 }
