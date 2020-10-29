@@ -304,6 +304,20 @@ footer{
     height: 45vw;
 }
 
+#vidright{
+     width: 35%;
+    height:30vw;
+     float: right;
+     margin-right: 5.5%;
+ }
+
+.wrap{
+    position: absolute;
+    display: inline-block;
+    margin-top: -39em;
+    right: 0;
+}
+
 .split{
     width: 40%;
     margin-left: 3%;
@@ -322,4 +336,15 @@ footer{
 #click:click {
     transform: scale(1.03);
     box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.23);
+}
+
+#small{
+    width: 40%;
+}
+
+#big{
+    background-color: #B7B7B7;
+    position: absolute;
+    right: 0;
+    width: 120%;
 }
