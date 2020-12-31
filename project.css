@@ -301,6 +301,13 @@ footer{
     margin-right: 5.5%;
 }
 
+.imageleft2{
+    display: inline-block;
+    position: relative;
+    float: left;
+    margin-right: 2%;
+}
+
 .imgdisplay{
     border-radius: 1vw;
     position: relative;
