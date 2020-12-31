@@ -137,7 +137,11 @@ aside {
 }
 
 #ix {
-    background-color: #39BBB0;
+    background-color: #C3E6E3;
+}
+
+#eco {
+    background-color: #F6FBF9;
 }
 
 #connect{
@@ -310,8 +314,45 @@ footer{
 
 #vidright{
     height:30vw;
-     float: right;
+    float: right;
  }
+
+#ecovidright{
+    height:35vw;
+    margin-left:33vw;
+    margin-top:-35vw;
+    position: absolute;
+    display: inline-block;
+
+}
+
+#vidright2{
+    height:34vw;
+    margin-left: -21%;
+    position: absolute;
+    display: inline-block;
+}
+
+#vidright3{
+    height:31.1vw;
+    margin-left: -20%;
+    position: absolute;
+    display: inline-block;
+}
+
+#ecovidleft{
+    height:34vw;
+
+    position: relative;
+
+}
+
+#vidright4{
+    height:35vw;
+    margin-left: -18%;
+    position: absolute;
+    display: inline-block;
+}
 
 .wrap{
     position: absolute;
