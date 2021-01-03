@@ -319,6 +319,11 @@ footer{
     height: 45vw;
 }
 
+.videowrapper2{
+    width: 100%;
+    height: 40vw;
+}
+
 #vidright{
     height:30vw;
     float: right;
