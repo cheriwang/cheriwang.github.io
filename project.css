@@ -18,6 +18,11 @@ a {
     text-decoration: none;
 }
 
+@keyframes fade{
+    0% {opacity: 0;}
+    100% {opacity:1;}
+}
+
 a.about:before {
     content: "";
     position: absolute;
@@ -122,6 +127,10 @@ aside {
     height: 33vw;
     position: absolute;
     margin-top: 8vw;
+    opacity: 0;
+    animation: fade 1s;
+    animation-fill-mode: forwards;
+    animation-delay: 0.5s;
 }
 
 #cura{
@@ -159,6 +168,7 @@ aside {
     position: relative;
     float: left;
     display: inline-block;
+
 }
 
 #bigtext{
@@ -239,6 +249,10 @@ section{
     /*background-color: #BEDBC5;*/
     position: absolute;
     margin-top: 45vw;
+    opacity: 0;
+    animation: fade 1s;
+    animation-fill-mode: forwards;
+    animation-delay: 0.5s;
 }
 
 footer{

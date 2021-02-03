@@ -129,6 +129,10 @@ section {
     position: absolute;
     margin-top: 45%;
     margin-left: 10%;
+    opacity:0;
+    animation: fade 1s;
+    animation-fill-mode: forwards;
+    animation-delay: 0.5s;
 }
 
 article {
@@ -180,7 +184,17 @@ aside {
 
 .intro {
     margin-top: 15%;
+    opacity: 0;
+    animation: fade 1s;
+    animation-fill-mode: forwards;
+    animation-delay: 0.5s;
 }
+
+@keyframes fade{
+    0% {opacity: 0;}
+    100% {opacity:1;}
+}
+
 
 .divider {
     height: 2vw;
@@ -295,6 +309,7 @@ aside {
     left: 0;
 }
 
+
 .viewFont {
     font-family: proxima-nova, sans-serif;
     font-weight: 600;
@@ -320,6 +335,7 @@ a.viewFont:before{
     bottom: .05vw;
     right: 0;
     background-color: #D0D0D0;
+
 }
 
 

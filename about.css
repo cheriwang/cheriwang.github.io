@@ -13,6 +13,11 @@ header {
     position: absolute;
 }
 
+@keyframes fade{
+    0% {opacity: 0;}
+    100% {opacity:1;}
+}
+
 a {
     color: inherit;
     text-decoration: none;
@@ -142,6 +147,10 @@ aside {
 
 .intro {
     margin-top: 15%;
+    opacity: 0;
+    animation: fade 1s;
+    animation-fill-mode: forwards;
+    animation-delay: 0.5s;
 }
 
 .divider {
@@ -185,6 +194,10 @@ section {
     position: absolute;
     margin-top: 34%;
     margin-left: 10%;
+    opacity: 0;
+    animation: fade 1s;
+    animation-fill-mode: forwards;
+    animation-delay: 0.5s;
 }
 
 article {
