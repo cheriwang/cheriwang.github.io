@@ -125,7 +125,7 @@ nav {
 
 section {
     width: 80%;
-    height: 250vw;
+    height: 246vw;
     position: absolute;
     margin-top: 45%;
     margin-left: 10%;
@@ -156,7 +156,7 @@ aside {
     height: 20vw;
     position: relative;
     margin-left: 5.5%;
-    margin-top: -1%;
+    margin-top: -2%;
 }
 
 .body{
@@ -366,19 +366,21 @@ img.left {
 
 .letsTalk {
     width: 100%;
-    height: 40.46%;
+    height: 35%;
     position: absolute;
+
 }
 
 .copyright {
     width: 100%;
     height: 5vw;
     position: absolute;
-    margin-top: 13%;
+    margin-top: 18%;
     font-family: 'DM Sans', sans-serif;
     font-size: 1.5vw;
     line-height: 1.75vw;
     text-align: center;
+
 }
 
 
