@@ -10,8 +10,8 @@ body {
 }
 
 .grid_container {
-    width: 270px;
-    height: 75px;
+    width: 500px;
+    height: 200px;
     position: relative;
     left: 38%;
     top: 31%; /* for optical centering */
@@ -30,9 +30,11 @@ body {
     opacity: 0;
     font-family: 'DM Sans', sans-serif;
     font-weight: bold;
-    font-size: 2.5em;
-    margin-top: -40%;
-    margin-left: 30%;
+    font-size: 2em;
+    margin-left: 25%;
+    margin-top: 32%;
+    color: #ffffff;
+    position: absolute;
     animation: fade 4s ease-in-out;
 }
 
@@ -86,4 +88,3 @@ body {
     75%	{ width: 2000px; height: 2000px; border-radius: 28%; opacity: 1; }
     100% { width: 0px; height: 0px; border-radius: 100%; opacity: 0; }
 }
-
