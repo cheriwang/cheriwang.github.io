@@ -10,8 +10,9 @@ body {
 }
 
 .grid_container {
-    width: 500px;
-    height: 200px;
+    width: 30vw;
+    height: 20%;
+    transform: translate(15%,20%);
     position: relative;
     left: 38%;
     top: 31%; /* for optical centering */
@@ -20,19 +21,18 @@ body {
 .h1{
     font-family: 'DM Sans', sans-serif;
     font-weight: bold;
-    font-size: 4em;
+    font-size: 6vh;
     float: left;
     color: #ffffff;
-    margin-left: 20px;
 }
 
 .small {
     opacity: 0;
     font-family: 'DM Sans', sans-serif;
     font-weight: bold;
-    font-size: 2em;
+    font-size: 4vh;
     margin-left: 25%;
-    margin-top: 32%;
+    margin-top: 50%;
     color: #ffffff;
     position: absolute;
     animation: fade 4s ease-in-out;
@@ -84,7 +84,7 @@ body {
 
 @keyframes woah {
     0% 	{ width: 0px; height: 0px; border-radius: 100%; opacity: 0; }
-    25%	{ width: 2000px; height: 2000px; border-radius: 28%; opacity: 1; }
-    75%	{ width: 2000px; height: 2000px; border-radius: 28%; opacity: 1; }
+    25%	{ width: 2500px; height: 2500px; border-radius: 28%; opacity: 1; }
+    75%	{ width: 2500px; height: 2500px; border-radius: 28%; opacity: 1; }
     100% { width: 0px; height: 0px; border-radius: 100%; opacity: 0; }
 }
