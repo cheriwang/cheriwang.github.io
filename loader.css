@@ -20,7 +20,7 @@ body {
 .h1{
     font-family: 'DM Sans', sans-serif;
     font-weight: bold;
-    font-size: 6em;
+    font-size: 4em;
     float: left;
     color: #ffffff;
     margin-left: 20px;
@@ -30,7 +30,7 @@ body {
     opacity: 0;
     font-family: 'DM Sans', sans-serif;
     font-weight: bold;
-    font-size: 4em;
+    font-size: 2em;
     margin-left: 25%;
     margin-top: 32%;
     color: #ffffff;
