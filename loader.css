@@ -84,7 +84,7 @@ body {
 
 @keyframes woah {
     0% 	{ width: 0px; height: 0px; border-radius: 100%; opacity: 0; }
-    25%	{ width: 2500px; height: 2500px; border-radius: 28%; opacity: 1; }
-    75%	{ width: 2500px; height: 2500px; border-radius: 28%; opacity: 1; }
+    25%	{ width: 250vw; height: 275vw; border-radius: 15%; opacity: 1; }
+    75%	{ width: 250vw; height: 275vw; border-radius: 15%; opacity: 1; }
     100% { width: 0px; height: 0px; border-radius: 100%; opacity: 0; }
 }
