@@ -17,10 +17,10 @@ body {
 }
 
 .box {
-    width: 47%;
+    width: 47.5%;
     position: relative;
     display: inline-block;
-    padding-right: 2%;
+    padding-right: 1%;
 }
 
 .h1{
