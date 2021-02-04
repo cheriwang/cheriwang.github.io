@@ -1,0 +1,91 @@
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.grid_container {
+    width: 500px;
+    height: 200px;
+    position: relative;
+    left: 38%;
+    top: 31%; /* for optical centering */
+}
+
+.h1{
+    font-family: 'DM Sans', sans-serif;
+    font-weight: bold;
+    font-size: 6em;
+    float: left;
+    color: #ffffff;
+    margin-left: 20px;
+}
+
+.small {
+    opacity: 0;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: bold;
+    font-size: 4em;
+    margin-left: 25%;
+    margin-top: 32%;
+    color: #ffffff;
+    position: absolute;
+    animation: fade 4s ease-in-out;
+}
+
+@keyframes fade{
+    100% {opacity: 0;}
+    85% {opacity: 1;}
+    10% {opacity: 1;}
+    0% {opacity:0;}
+}
+
+.c {
+    position: relative;
+    animation: move2 2s infinite ease-in-out;
+}
+
+.w {
+    position: relative;
+    animation: move 2s infinite ease-in-out;
+}
+
+@keyframes move{
+    0%,100% {top: 0px;}
+    50% {top: -18px;}
+}
+
+@keyframes move2{
+    0%,100% {top: -18px;}
+    50% {top: 0px;}
+}
+
+.square_circle{
+    width: 100%;
+    height: 100%;
+    background-color: #538055;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    z-index: -1;
+    opacity: 0;
+    animation: woah 4s ease-in-out;
+
+}
+
+
+@keyframes woah {
+    0% 	{ width: 0px; height: 0px; border-radius: 100%; opacity: 0; }
+    25%	{ width: 2000px; height: 2000px; border-radius: 28%; opacity: 1; }
+    75%	{ width: 2000px; height: 2000px; border-radius: 28%; opacity: 1; }
+    100% { width: 0px; height: 0px; border-radius: 100%; opacity: 0; }
+}
+
