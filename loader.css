@@ -90,7 +90,7 @@ body {
     margin: auto;
     z-index: -1;
     opacity: 0;
-    animation: woah 3.5s ease-in-out;
+    animation: woah 4s ease-in-out;
 
 }
 

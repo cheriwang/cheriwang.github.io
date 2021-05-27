@@ -122,6 +122,26 @@ nav {
     color: #538055;
 }
 
+/*.move{*/
+/*    position: relative;*/
+/*    margin-top: -10vh;*/
+/*    float: right;*/
+/*    font-family: 'DM Sans', sans-serif;*/
+/*    font-weight: bold;*/
+/*    font-size: 5vw;*/
+/*    line-height: 6vw;*/
+/*    animation: move 2s;*/
+/*    animation-delay: 0.75s;*/
+/*    background-color: #141414;*/
+/*}*/
+
+/*@keyframes move{*/
+/*    0%,100% {transform: rotate(0deg);}*/
+/*    25%, 75% {transform: rotate(40deg);}*/
+/*    50% {transform: rotate(0deg);}*/
+
+/*}*/
+
 section {
     width: 80%;
     height: 246vw;
