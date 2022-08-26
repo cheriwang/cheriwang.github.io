@@ -26,9 +26,9 @@ body{
 .text{
     width: 612px;
     height:15px;
-    position: absolute;
+    position: relative;
     left: 50%;
-    top: 20%;
+    top: 75px;
     transform: translate(-50%, -50%);
     background-color: #476439;
 }
