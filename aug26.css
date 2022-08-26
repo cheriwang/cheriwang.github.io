@@ -28,8 +28,8 @@ body{
     width: 612px;
     height:100px;
     position: relative;
-    top: -100px;
-    background:476439
+    margin-top: -30%;
+    backgrond:476439
     filter: drop-shadow(0px 0px 0px #304426);
 }
 
