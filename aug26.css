@@ -36,6 +36,8 @@ body{
 .copy{
     font-family: 'DM Sans', sans-serif;
     font-weight: normal;
+    font-size: 15px;
+    letter-spacing: 2%;
     color: #FFFFFF;
     text-align: center;
     
