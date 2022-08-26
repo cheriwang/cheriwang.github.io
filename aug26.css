@@ -24,9 +24,10 @@ body{
 }
 
 .text{
+    position: absolute;
     width: 612px;
-    top:5%;
-    left:30%;    
+    top:10%;
+    left:40%;    
 }
 
 .copy{
