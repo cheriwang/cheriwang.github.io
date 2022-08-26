@@ -7,8 +7,8 @@ body{
 
 .cover{
     background-color: #476439;
-    height: 750;
-    width: 536;
+    height: 750px;
+    width: 536px;
     position: absolute;
     left: 50%;
     top: 50%;
@@ -18,8 +18,8 @@ body{
 
 
 .res{
-    height: 750;
-    width: 536;
+    height: 750px;
+    width: 536px;
     position: absolute;
     left: 50%;
     top: 50%;
