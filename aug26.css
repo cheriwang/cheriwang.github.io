@@ -26,7 +26,7 @@ body{
 .text{
     width: 612px;
     height:100px;
-    position: relative;
+    position: absolute;
     left: 50%;
     top: 20%;
     transform: translate(-50%, -50%);
