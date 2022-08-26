@@ -6,7 +6,7 @@ body{
 }
 
 .cover{
-    background-color: #476439;
+    background-color: #ffffff;
     height: 750px;
     width: 536px;
     position: absolute;
@@ -18,9 +18,7 @@ body{
 
 
 .res{
-    height: 750px;
-    width: 536px;
-    position: absolute;
+    height: 100%;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
