@@ -35,6 +35,9 @@ body{
     font-family: 'DM Sans', sans-serif;
     font-weight: normal;
     color: #FFFFFF;
+    text-align: center;
+    position: relative;
+    top: -25%;
 }
 
 
