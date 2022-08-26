@@ -31,7 +31,6 @@ body{
     top: 20%;
     transform: translate(-50%, -50%);
     background-color: #476439;
-    filter: drop-shadow(0px 0px 0px #304426);
 }
 
 .copy{
