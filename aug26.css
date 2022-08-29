@@ -24,9 +24,10 @@ body{
 }
 
 .text{
-    width: 575px;
+    width: 600px;
     height:20px;
     position: relative;
+    top:20px;
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: #476439;
