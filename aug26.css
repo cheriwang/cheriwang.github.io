@@ -7,8 +7,7 @@ body{
 
 .cover{
     background-color: #ffffff;
-    height: 745px;
-    width: 575px;
+    height: 675px;
     position: absolute;
     left: 50%;
     top: 50%;
@@ -25,10 +24,9 @@ body{
 
 .text{
     width: 575px;
-    height:15px;
+    height:20px;
     position: relative;
     left: 50%;
-    top: 5.75vh;
     transform: translate(-50%, -50%);
     background-color: #476439;
 }
